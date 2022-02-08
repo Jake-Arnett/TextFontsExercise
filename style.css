@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* 1. Go to fonts.google.com and get the “Orbitron” font (Select the Regular 400 and Bold 700 styles). Set up your links for that font in your html file so you can use it in your CSS file. */
+/* COMPLETED */
+
+/* 2. Go into your css file and set the font for the root element to the “Orbitron” font (HINT: You can copy this from the Google Fonts page/site) */
+html {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* 3. Make all the span elements bold */
+span {
+    font-weight: bold;
+}
+
+/* 4. Set the size of the h1 to 50 pixels */
+/* 5. Add 10 pixels of spacing between the letters in the h1 */
+/* 6. Move the h1 to the center of the screen */
+/* 7. Capitalize all the letters in the h1 (Must complete this in the CSS file) */
+/* 8. Add the style to the h1 that will give it an underline */
+h1 {
+   font-size: 50px;
+   letter-spacing: 10px;
+   text-align: center;
+   text-transform: capitalize;
+   text-decoration: underline;
+}
+
+/* 9. Set the text size of the “series-movies” div to 20 pixels */
+#series-movies {
+    font-size: 20px;
+
+}
+
+/* 10. Set the text size for the two h2 elements to 40 pixels using em instead of px */
+h2 {
+    font-size: 2.5em;
+}
+
+/* 11. Make the vertical spacing between each li element double spaced (Hint: 2) */
+li {
+    line-height: 2;
+    font-size: 1em;
+}
+
+/* 12. Set the text size for the “characters” div to 18 pixels */
+#characters {
+    font-size: 18px;
+}
+
+/* 13. Set the letter spacing for the h4 to 15 pixels */
+h4 {
+    letter-spacing: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+body {
+    background-image: url("starTrek.jpg");
+    background-position: auto;
+    background-size: auto;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+
+/* BONUS… */  
+/* COMPLETED */
+
+/* 1. Go back to fonts.google.com and get the “Press Start 2P” font (There is only one style to select). Include/Link this font without adding anything to your HTML file. */
+/* 2. Set the font for the h4 element to the “Press Start 2P” font */
+/* 3. Using only 3 lines in your css file, center the the h4, h3, as well as both h2 elements */
+/* 4. Set the text size for all the li elements to 16 pixels using em instead of px */
+/* 5. Include the “starTrek.jpg” in your “TextFontsExercise” folder and set it as the background for the webpage */
+/* 6. Change the color of all the text to rgba(255,255,255, 0.6) */
+/* 7. Set styles for the background-position and background-size properties so the image is centered and covering the webpage */
+
